@@ -1,0 +1,162 @@
+body{
+  background:hsla(240,7%,81%,.15);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 34px;
+}
+
+.App-header {
+  background-color: #fff;
+  height: 68px;
+  padding: 20px;
+  color: #333;
+}
+
+.App-header h5{
+  float: right;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.App-title {
+  font-size: 1.2em;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/*  events styles */
+.events-content,
+.transaction-content{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #FEFEFE;
+  color: #666;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+.transaction-content{
+  margin-bottom: 35px;
+  background: #f6f6f6;
+}
+
+.events-content div,
+.transaction-content div{
+  max-width: 100%;
+  text-align: left;
+  padding: 2px;
+}
+
+.events-content div span,
+.transaction-content div span{
+  width: 12%;
+  float: left;
+  font-weight: bold;
+}
+
+.transaction {
+  margin-bottom: 35px;
+}
+
+.title{
+  width: 980px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #E1E9E8;
+  text-align: left;
+  font-size: 16px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  color: #777;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.transaction .title{
+  border-bottom: 1px solid #ddd;
+}
+
+.title span{
+  font-size: 13px;
+  color: #444;
+}
+
+.event-title{
+  border-top: 1px solid #ccc;
+}
+
+.main-title{
+  color: #555;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.top-div{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.top-div div{
+  width: 24%;
+  background: #fff;
+  text-overflow: ellipsis;
+  float: left;
+  padding: 35px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  min-height: 50px;
+  border-radius: 4px;
+}
+
+.top-div div span{
+  font-weight: bold;
+  width: 100%;
+  float: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.top-eventscount{
+  margin:0 3%;
+}
+
+.main-content{
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.error-message{
+  float: left;
+  width: 100%;
+}
+
+.show{
+  display: block;
+}
+
+.hidden{
+  display: none;
+}
